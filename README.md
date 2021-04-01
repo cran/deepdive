@@ -1,13 +1,20 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<p align="center">
+
+<img  src="https://i.ibb.co/Snv5grs/deepdivelogo.png">
+
+</p>
+
+[![](https://www.r-pkg.org/badges/version/deepdive?color=green)](https://cran.r-project.org/package=deepdive)
+[![](https://img.shields.io/badge/Dev-1.0.2-green.svg)](https://rajeshb24.github.io/deepdive/)
+
 # deepdive
 
 **deepnet-\>deeptree-\>deepforest**
 
-<!-- badges: start -->
-
-<!-- badges: end -->
+**Github version has been updated with minor bug fixes.Will be upated in CRAN soon.**
 
 This package aims to provide simple intuitive functions to create quick
 prototypes of artificial neural network or deep learning models for
@@ -33,10 +40,16 @@ and doubts or you can always leave a comment on github.
 
 ## Installation
 
-You can install the released version of deepdive from
-[GitHub](https://github.com/RajeshB24/deepdive) with:
+You can install released version from CRAN or development from github
+deepdive from [GitHub](https://github.com/RajeshB24/deepdive) with:
 
 ``` r
+
+#CRAN
+
+install.packages("deepdive")
+
+#Development Version
 devtools::install_github("RajeshB24/deepdive")
 ```
 
@@ -62,11 +75,15 @@ library(deepdive)
  optimiser="adam")
 ```
 
-    ## [1] "iteration 3: 3626.9673670977"
-    ## [1] "iteration 7: 2777.19783594767"
-    ## [1] "iteration 11: 2021.14872706234"
-    ## [1] "iteration 15: 2010.16569753942"
-    ## [1] "iteration 20: 2141.09636263043"
+    ## iteration 3: 3411.16051267071
+
+    ## iteration 7: 2604.11288801726
+
+    ## iteration 11: 1937.08720004024
+
+    ## iteration 15: 1989.74302007208
+
+    ## iteration 20: 2087.62656554103
 
 ``` r
  #predict
